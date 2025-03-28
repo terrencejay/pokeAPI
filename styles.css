@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('pokemon-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+/* Pokemon Cards */
+.pokemon-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.pokemon-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Type Badges */
+.type-badge {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    margin: 0 2px;
+    font-size: 0.9em;
+}
+
+/* Pokemon Type Colors */
+.type-fire { background-color: #FF4422; }
+.type-water { background-color: #3399FF; }
+.type-grass { background-color: #77CC55; }
+/* Add more type colors as needed */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+}
